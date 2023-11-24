@@ -23,7 +23,7 @@ int main() {
     bool happy = false;
 
     std::cout << "Welcome to Life Game\n";
-    std::cout << "You are a student at Codecademy's International School.\n";
+    std::cout << "You are a student at Github's International School.\n";
     std::cout << "There is an upcoming c++ test on Friday\n\n\n";
 
     std::cout << "Its Monday afternoon. There are 4 days for the upcoming test. What will you do?\n\n";
