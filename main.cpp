@@ -378,27 +378,59 @@ int main() {
     std::cout << "2. LIE\n";
     std::cin >> mum_choice;
 
-    // Continue Mum code
-
     if (mum_choice == 1) {
-        if (test == 10) {
-            std::cout << "You told your mum you got a 10!\n";
-            std::cout << "She says she is very proud of you and prepares your favorite food for lunch\n\n\n";
-            happy = true;
-        } else if (test == 9) {
+        if (cheat == false) {
+            if (test == 10) {
+                std::cout << "You told your mum you got a 10!\n";
+                std::cout << "She says she is very proud of you and prepares your favorite food for lunch!\n\n\n";
+                happy = true;
+            } else if (test == 9) {
+                std::cout << "You told your mum you got a 9!\n";
+                std::cout << "She says you should have worked harder to get a 10 and that you are stupid.\n\n\n";
+            } else if (test == 8) {
+                std::cout << "You told your mum you got a 8!\n";
 
-        } else if (test == 8) {
+            } else if (test == 7) {
+                std::cout << "You told your mum you got a 7.\n";
 
-        } else if (test == 7) {
+            } else if (test == 6) {
+                std::cout << "You told your mum you got a 6.\n";
 
-        } else if (test == 6) {
+            } else if (test == 5) {
+                std::cout << "You told your mum you got a 5.\n";
 
-        } else if (test == 5) {
+            } else if (test == 0) {
+                std::cout << "You told your mum you failed.\n";
 
-        } else if (test == 0) {
+            } else if (test == NULL) {
+                std::cout << "You told your mum the teacher didn't give you a grade.\n";
+
+            }
+        } else if (cheat == true) {
+            if (test == 10) {
+
+            } else if (test == 9) {
+
+            } else if (test == 8) {
+
+            } else if (test == 7) {
+
+            } else if (test == 6) {
+
+            } else if (test == 5) {
+
+            } else if (test == 0) {
+
+            } else if (test == NULL) {
+
+            }
+        }
+        if (caught == true) {
 
         }
+
     }
+    // finish whole mum code
 
     // make extra endings code
 }
